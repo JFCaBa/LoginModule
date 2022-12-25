@@ -16,6 +16,9 @@
 		821E8FB9294CF571001F02E8 /* LoginModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821E8FB8294CF571001F02E8 /* LoginModuleTests.swift */; };
 		821E8FC3294CF571001F02E8 /* LoginModuleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821E8FC2294CF571001F02E8 /* LoginModuleUITests.swift */; };
 		821E8FC5294CF571001F02E8 /* LoginModuleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821E8FC4294CF571001F02E8 /* LoginModuleUITestsLaunchTests.swift */; };
+		821E8FD2294CF6A5001F02E8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821E8FD1294CF6A5001F02E8 /* ViewModel.swift */; };
+		821E8FD4294F3A72001F02E8 /* UITextField+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821E8FD3294F3A72001F02E8 /* UITextField+Combine.swift */; };
+		8291DDF82952210B0083BDAC /* UIView+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8291DDF72952210B0083BDAC /* UIView+Keyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		821E8FBE294CF571001F02E8 /* LoginModuleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginModuleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		821E8FC2294CF571001F02E8 /* LoginModuleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModuleUITests.swift; sourceTree = "<group>"; };
 		821E8FC4294CF571001F02E8 /* LoginModuleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModuleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		821E8FD1294CF6A5001F02E8 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		821E8FD3294F3A72001F02E8 /* UITextField+Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Combine.swift"; sourceTree = "<group>"; };
+		8291DDF72952210B0083BDAC /* UIView+Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Keyboard.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				821E8FA1294CF570001F02E8 /* AppDelegate.swift */,
 				821E8FA3294CF570001F02E8 /* SceneDelegate.swift */,
 				821E8FA5294CF570001F02E8 /* ViewController.swift */,
+				821E8FD1294CF6A5001F02E8 /* ViewModel.swift */,
+				821E8FD3294F3A72001F02E8 /* UITextField+Combine.swift */,
+				8291DDF72952210B0083BDAC /* UIView+Keyboard.swift */,
 				821E8FA7294CF570001F02E8 /* Main.storyboard */,
 				821E8FAA294CF571001F02E8 /* Assets.xcassets */,
 				821E8FAC294CF571001F02E8 /* LaunchScreen.storyboard */,
@@ -260,7 +269,10 @@
 			files = (
 				821E8FA6294CF570001F02E8 /* ViewController.swift in Sources */,
 				821E8FA2294CF570001F02E8 /* AppDelegate.swift in Sources */,
+				821E8FD2294CF6A5001F02E8 /* ViewModel.swift in Sources */,
+				821E8FD4294F3A72001F02E8 /* UITextField+Combine.swift in Sources */,
 				821E8FA4294CF570001F02E8 /* SceneDelegate.swift in Sources */,
+				8291DDF82952210B0083BDAC /* UIView+Keyboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
